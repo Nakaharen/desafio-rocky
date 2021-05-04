@@ -1,3 +1,4 @@
+/* --------------------------- header-menu ---------------------------------- */
 header {
   margin: auto;
   width: 100vw;
@@ -38,4 +39,49 @@ a {
   color: #fff;
 }
 
+/* --------------------------- header-home ---------------------------------- */
+.content {
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+  height: 85vh;
+}
 
+.content .title {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 6rem;
+  color: #fff;
+  width: 70%;
+  margin-bottom: 0.5em;
+  line-height: 7rem;
+}
+
+.content p {
+  color: #fff;
+  margin-bottom: 2em;
+  width: 45%;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.content p strong {
+  color: #EFE60B;
+}
+
+.content button {
+  color: #fff;
+  font-weight: 700;
+  background-color: #1CD4E9;
+  padding: 20px 14px;
+  border: 0;
+  border-radius: 40px;
+  margin-top: 2em;
+}
