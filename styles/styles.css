@@ -1,3 +1,10 @@
+/* ------------------------------ pattern ---------------------------------=- */
+
+h2 {
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
 /* --------------------------- header-menu ---------------------------------- */
 
 header {
@@ -101,17 +108,13 @@ main {
   overflow: hidden;
 }
 
+/* ------------------------------- about ------------------------------------ */
+
 .about {
   height: 100vh;
   max-width: 85%;
   margin: auto;
-  position:relative;
-}
-
-.about h2 {
-  font-size: 2rem;
-  padding-top: 3rem;
-
+  position: relative;
 }
 
 .content-about {
@@ -125,5 +128,74 @@ main {
 }
 
 .content-about p:nth-child(n+2){
+  margin-top: 20px;
+}
+
+.services {
+  height: 100vh;
+  max-width: 85%;
+  margin: auto;
+  position: relative;
+}
+
+.container-services {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 24%;
+}
+
+.bg-services {
+  background-image: url("../assets/images-web/s3_ft1.png");
+  background-size: cover;
+}
+
+.bg-media {
+  background-image: url("../assets/images-web/s3_ft2.png");
+  background-size: cover;
+}
+
+.bg-technology {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-technology img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  filter: brightness(30%);
+}
+
+.bg-technology h3,
+.bg-technology span {
+  position: relative;
+  z-index: 2;
+}
+
+.content-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2.5em 1.5em 3em;
+  width: 32%;
+  height: 40%;
+}
+
+.content-services h3 {
+  text-align: center;
+  color: #EFE60B;
+  margin-bottom: 1.5em;
+}
+
+.text-services {
+  color:#fff;
+}
+
+.text-services:nth-child(n+2){
   margin-top: 20px;
 }
