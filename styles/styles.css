@@ -131,6 +131,8 @@ main {
   margin-top: 20px;
 }
 
+/* ------------------------------ services ---------------------------------- */
+
 .services {
   height: 100vh;
   max-width: 85%;
@@ -198,4 +200,69 @@ main {
 
 .text-services:nth-child(n+2){
   margin-top: 20px;
+}
+
+/* ---------------------------- differentials ------------------------------- */
+.differentials {
+  height: 100vh;
+  max-width: 85%;
+  margin: auto;
+  position: relative;
+}
+
+.container-differentials {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 24%;
+}
+
+.bg-differentials1 {
+  position: relative;
+}
+
+.bg-differentials2 {
+  position: relative;
+}
+
+.bg-differentials3 {
+  position: relative;
+}
+
+.img-differentials {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  filter: brightness(30%);
+}
+
+.content-differentials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3.5em 2.8em 2.5em;
+  width: 25%;
+  height: 40%;
+}
+
+.content-differentials span,
+.content-differentials .medal-icon {
+  z-index: 2;
+}
+
+.content-differentials span {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.3rem;
+}
+
+.content-differentials .medal-icon {
+  width: 90px;
+  height: auto;
 }
