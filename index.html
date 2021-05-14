@@ -19,15 +19,15 @@
         <nav id="menu-item">
           <ul>
             <li>
-              <a href="#">SOBRE A ROCKY</a>
+              <a href="#about">SOBRE A ROCKY</a>
             </li>
 
             <li>
-              <a href="#">SERVIÇOS</a>
+              <a href="#services">SERVIÇOS</a>
             </li>
 
             <li>
-              <a href="#">DIFERENCIAIS</a>
+              <a href="#differentials">DIFERENCIAIS</a>
             </li>
 
             <li>
@@ -35,7 +35,7 @@
             </li>
 
             <li>
-              <a href="#">CONTATO</a>
+              <a href="#contact">CONTATO</a>
             </li>
 
             <li>
@@ -61,7 +61,7 @@
   </header>
 
   <main>
-    <section class="about">
+    <section id="about" class="about">
       <h2>SOBRE</h2>
       <div class="content-about">
         <p>
@@ -98,7 +98,7 @@
       </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
       <h2>SERVIÇOS</h2>
 
       <div class="container-services">
@@ -160,7 +160,7 @@
       </div>
     </section>
 
-    <section class="differentials">
+    <section id="differentials" class="differentials">
       <h2>DIFERENCIAIS</h2>
       <div class="container-differentials">
         <div class="content-differentials bg-differentials1">
@@ -202,8 +202,78 @@
     </section>
   </main>
 
-  <footer>
+  <footer id="contact">
+    <div class="footer-background">
+      <div class="footer-content">
+        <div class="footer-header">
+          <img src="./assets/images-web/logo.png" alt="Logo Rocky">
 
+          <div class="logos">
+            <img src="./assets/logotipo-circular-do-facebook.svg" alt="Ícone Facebook">
+            <img src="./assets/logotipo-do-linkedin.svg" alt="Ícone Linkedin">
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <a href="mailto:contato@rocky.ag">
+            <img src="./assets/letter.svg" alt="Ícone carta">
+            contato@rocky.ag
+          </a>
+
+          <div class="vertical-line"></div>
+
+          <a href="tel:+551533211105">
+            <img src="./assets/telefone.svg" alt="Ícone telefone">
+            (15) 3321-1105
+          </a>
+        </div>
+
+        <div class="footer-address">
+          <a
+            target="_blank"
+            href="https://www.google.com/maps/place/ROCKY.+AG+Marketing+Digital/@-23.517768,-47.4612969,15z/data=!4m5!3m4!1s0x0:0x5f3f18905e39d772!8m2!3d-23.5177675!4d-47.4613021"
+          >
+            <img src="./assets/pin.svg" alt="Ícone localização">
+            R. Romeu do Nascimento, 247 - 2º andar - Jardim Portal da Colina,
+            Sorocaba - SP, 18047-410
+          </a>
+        </div>
+
+        <div class="footer-text">
+          <p class="text-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            ex nobis perspiciatis eum quidem tempore omnis blanditiis, sunt
+            ipsum inventore voluptas quisquam, architecto nam, vitae doloremque
+            nemo cumque hic at.
+          </p>
+
+          <p class="text-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni in
+            quas! Soluta, reprehenderit architecto ea, eligendi sequi molestias
+            nam laborum, aspernatur corrupti doloribus in porro aut nemo
+            consectetur quibusdam.
+          </p>
+
+          <p class="text-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam ab ut
+            obcaecati rerum quaerat, consectetur saepe cumque necessitatibus
+            esse atque, quos illum animi ea tenetur mollitia soluta, eos impedit
+            aliquam!
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-form">
+        <form>
+          <input type="text" name="name" placeholder="Nome">
+          <input type="email" name="email" placeholder="E-mail">
+          <input type="text" name="investment" placeholder="Investimento mensal">
+          <textarea name="message" rows="7" placeholder="Mensagem"></textarea>
+
+          <button type="submit">ENVIAR MENSAGEM</button>
+        </form>
+      </div>
+    </div>
   </footer>
 
   <script src="./scripts/index.js"></script>
