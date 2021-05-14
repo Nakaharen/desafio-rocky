@@ -9,7 +9,7 @@ h2 {
 
 header {
   margin: auto;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   background-image: url("../assets/images-web/s1_ft1.png");
   background-size: cover;
@@ -22,14 +22,20 @@ header {
 }
 
 .menu {
-  padding: 10px;
+  padding: 10px 5rem;
   display: flex;
   height: 50px;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
 }
 
-img {
+.menu img {
   width: 124px;
 }
 
@@ -265,4 +271,144 @@ main {
 .content-differentials .medal-icon {
   width: 90px;
   height: auto;
+}
+
+/* ------------------------------- footer ----------------------------------- */
+
+footer {
+  height: 100vh;
+  width: auto;
+  background-color: #EFE60B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-background {
+  height: 85%;
+  background-color: #191919;
+  display: flex;
+  max-height: 85%;
+  color: white;
+}
+
+.footer-content {
+  width: 50%;
+  padding: 2.5rem 5rem;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-header img {
+  height: 32px;
+  width: auto;
+}
+
+.footer-header img:nth-child(n+2) {
+  margin-left: 2rem;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.footer-contact a {
+  color: #aaa;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact img {
+  height: 1rem;
+  width: auto;
+  margin-right: 0.7rem;
+}
+
+.vertical-line {
+  border-left: 2px solid #555;
+}
+
+.footer-address {
+  margin: 1.5rem 0;
+}
+
+.footer-address a {
+  color: #aaa;
+  font-weight: 500;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-address img {
+  height: 1rem;
+  width: auto;
+  margin-right: 0.7rem;
+}
+
+.footer-text p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.3rem;
+}
+
+.footer-text p:nth-child(n+2) {
+  margin-top: 1.2rem;
+}
+
+.footer-text .text-2 {
+  color: #EFE60B;
+}
+
+.footer-text .text-3 {
+  color: #1CD4E9;
+}
+
+.footer-form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-form form {
+  width: 65%;
+  padding: 1.2rem;
+  background-color: #818181;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-form input,
+.footer-form textarea {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.footer-form input::placeholder,
+.footer-form textarea::placeholder {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.footer-form textarea {
+  resize: none;
+  width: auto;
+}
+
+.footer-form button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #1CD4E9;
+  padding: 16px 14px;
+  border: 0;
 }
